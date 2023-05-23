@@ -1,0 +1,132 @@
+/* Common Section Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    
+}
+body{
+    background-color: var(--primary-color);
+    font-family: var(--primary-font);
+    color: white;
+}
+:root{
+    --primary-color: #2A2F4F;
+    --secondary_color: #E5BEEC;
+    --primary-font: 'Teko', sans-serif;;
+    
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.justify-between{
+    justify-content: space-around;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+w-10{
+    width: 10%;
+}
+w-15{
+    width: 15%;
+}
+w-20{
+    width: 20%;
+}
+w-25{
+    width: 25%;
+}
+w-30{
+    width: 30%;
+}
+w-35{
+    width: 35%;
+}
+w-40{
+    width: 40%;
+}
+w-45{
+    width: 45%;
+}
+w-50{
+    width: 50%;
+}
+w-55{
+    width: 55%;
+}
+w-60{
+    width: 60%;
+}
+w-65{
+    width: 65%;
+}
+w-70{
+    width: 70%;
+}
+w-75{
+    width: 75%;
+}
+w-80{
+    width: 80%;
+}
+w-85{
+    width: 85%;
+}
+w-90{
+    width: 90%;
+}
+w-100{
+    width: 100%;
+}
+
+
+.container{
+    width: 1110px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Common Section End */
+
+/* clockdoc Section Start */
+#clockdoc{
+    height: 100vh;
+    
+}
+#clockdoc .container{
+    height: 100%;
+}
+#clockdoc .container .mainContent{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: var(--secondary_color);
+    background-color: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+#clockdoc .container .mainContent .timebox h2{
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: var(--secondary_color);
+}
+
+#clockdoc .container .mainContent .timebox h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--secondary_color);
+    padding: 0px 10px;
+}
+
+
+/* clockdoc Section End */
